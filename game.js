@@ -2545,6 +2545,29 @@
     ctx.fillRect(6, 8, 1, 1);
     ctx.fillRect(9, 8, 1, 1);
 
+    // Full beard (matching hair color)
+    ctx.fillStyle = "#5a3a1a"; // Main beard color (same as hair)
+    // Chin beard base
+    ctx.fillRect(4, 9, 8, 3);
+    // Sides of beard extending from jaw
+    ctx.fillRect(3, 8, 1, 2);
+    ctx.fillRect(12, 8, 1, 2);
+    ctx.fillRect(2, 8, 1, 3);
+    ctx.fillRect(13, 8, 1, 3);
+    // Full coverage under chin
+    ctx.fillRect(3, 10, 10, 2);
+    // Beard texture and depth
+    ctx.fillStyle = "#4a2a0a"; // Darker areas (hair texture color)
+    ctx.fillRect(4, 10, 1, 2);
+    ctx.fillRect(6, 11, 1, 1);
+    ctx.fillRect(9, 11, 1, 1);
+    ctx.fillRect(11, 10, 1, 2);
+    // Beard highlights
+    ctx.fillStyle = "#7a5a3a"; // Lighter highlights (same as hair highlights)
+    ctx.fillRect(5, 9, 2, 1);
+    ctx.fillRect(9, 9, 2, 1);
+    ctx.fillRect(6, 10, 2, 1);
+
     // Neck (tan)
     ctx.fillStyle = "#ebbd8f";
     ctx.fillRect(5, 10, 6, 2);
